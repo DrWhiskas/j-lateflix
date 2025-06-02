@@ -1,0 +1,35 @@
+.footer{
+    position: relative;
+    height: auto;
+    background-color: var(--lateflix-dark);
+    padding: 2rem;
+}
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer__container__social{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0 5rem;
+}
+.social__links{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+.footer__container__text{
+    padding: 0 5rem;
+}
+.social__link{
+    position: relative;;
+}
+
+.footer a{
+    transition: all ease-in-out 0.2s;
+}
+.footer a:hover {
+    color: var(--lateflix-gray);
+}
